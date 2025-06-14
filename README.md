@@ -2,6 +2,8 @@
 
 This is a simple two-player chess game built using HTML, CSS, and JavaScript. The game allows two players to play chess against each other in a web browser.
 
+![Chess Game Demo](assets/chess-demo.gif)
+
 ## Project Structure
 
 ```
