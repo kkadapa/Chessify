@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="game-status"></div>
+        <div class="board-container">
+            <div id="captured-white" class="captured-pieces"></div>
+            <div id="chessboard"></div>
+            <div id="captured-black" class="captured-pieces"></div>
+        </div>
+    </div>
+    <div id="promotion-modal" class="modal">
+        <div class="modal-content">
+            <h3>Choose a piece to promote your pawn</h3>
+            <div class="promotion-options"></div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
